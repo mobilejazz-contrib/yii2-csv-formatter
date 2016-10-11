@@ -1,5 +1,5 @@
 {
-    "name": "sam-it/yii2-csv-formatter",
+    "name": "mobilejazz-contrib/yii2-csv-formatter",
     "description": "Yii2 CSV Response Formatter",
     "type": "yii2-extension",
     "license": "MIT",
