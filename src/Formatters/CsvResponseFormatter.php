@@ -5,6 +5,8 @@ use yii\base\Arrayable;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
+use yii\web\ResponseFormatterInterface;
+
 /**
  * CsvResponseFormatter formats the given data into CSV response content.
  *
@@ -30,7 +32,7 @@ class CsvResponseFormatter extends Component implements ResponseFormatterInterfa
      * @var string The delimiter to use (one character only)
      * @see fputcsv
      */
-    public $delimiter = ',';
+    public $delimiter = ';';
     /**
      * @var string The field enclosure to use (one character only)
      * @see fputcsv
